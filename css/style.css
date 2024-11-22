@@ -259,9 +259,9 @@ a:focus {
 }
 
 .hero .hero-image {
-    position: relative;
     text-align: right;
     padding-right: 75px;
+    padding-top: 5px;
 }
 
 .hero .hero-image img {
@@ -313,7 +313,7 @@ a:focus {
 }
 
 .hero .hero-btn .btn {
-    margin-top: 35px;
+    margin-top: 10px;
     color: #DBEEF7;
     background: #010029;
     box-shadow: inset 0 0 0 50px #010029;
@@ -1532,6 +1532,33 @@ a:focus {
 }
 
 .footer .footer-social a:hover i {
+    color: #414141;
+}
+
+.hero .hero-social {
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 150px;
+
+}
+
+.hero .hero-social a {
+    display: inline-block;
+}
+
+.hero .hero-social a i {
+    margin-top: 10px;
+    margin-right: 15px;
+    font-size: 20px;
+    color: #010029;
+    transition: .3s;
+}
+
+.hero .hero-social a:last-child i {
+    margin: 0;
+}
+
+.hero .hero-social a:hover i {
     color: #414141;
 }
 
